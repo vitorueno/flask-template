@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<!--FEEL FREE TO DELETE EVERYTHING-->
+<h1>The title is: {{ title }}</h1>
+
+{% for hello in range(19)%}
+    {% if hello != 18 %}
+        <h2>{{ title }} {{ hello }}</h2>
+    {% else %}
+        <h2>{{ title }} {{ hello }} =======> The last one</h2>
+    {% endif %}
+    
+{% endfor %}
+<!--
+    <a href="{{ url_for('RouteName') }}">Link tutorial</a>
+    <img src="{{ url_for('static', filename='img/ImageName.EXTENSION') }}" alt="img_tutorial">
+-->
+{% endblock main %}
