@@ -7,7 +7,7 @@ created by:
 Vítor Augusto Ueno Otto
 
 my twitter:
-@uenootto
+[@UenoOtto](https://twitter.com/UenoOtto)
 
 my instagram:
-uenootto
+[uenootto](https://www.instagram.com/uenootto/)
